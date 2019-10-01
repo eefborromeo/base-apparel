@@ -25,4 +25,6 @@ Users should be able to:
 ![Active States preview](/design/active-states.jpg)
 
 **Mobile Design Preview**
+
+
 ![Mobile design preview](/design/mobile-design.jpg)
