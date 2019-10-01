@@ -11,26 +11,26 @@
 </head>
 <body>
   <header>
-    <div class="logo-container">
+    <div id="logo" class="container">
         <img src="images/logo.svg" alt="Logo"/>
     </div>
   </header>
   <div>
     <div class="hero-img"></div>
-    <article class="copy">
+    <article class="copy container">
       <h1>We're <span>coming soon</span></h1>
       <p>Hello fellow shoppers! We're currently building our new fashion store. 
         Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <div class="email-form">
+            <input id="email"
+                  name="email"
+                  type="email"
+                  placeholder="Email Address"/>
+                  <button>Submit</button>
+          </div>
     </article>
-    <div class="email-form">
-      <input id="email"
-            name="email"
-            type="email"
-            placeholder="Email Address"/>
-            <button>Submit</button>
-    </div>
   </div>
-  <footer>
+  <footer class="container">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">EB</a>.
