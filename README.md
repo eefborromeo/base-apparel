@@ -18,12 +18,11 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
-![Desktop design preview](/design/desktop-design.jpg)
 **Desktop Design Preview**
+![Desktop design preview](/design/desktop-design.jpg)
 
-![Active States preview](/design/active-states.jpg)
 **Active States Preview**
-
-![Mobile design preview](/design/mobile-design.jpg)
+![Active States preview](/design/active-states.jpg)
 
 **Mobile Design Preview**
+![Mobile design preview](/design/mobile-design.jpg)
