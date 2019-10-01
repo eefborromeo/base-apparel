@@ -21,8 +21,8 @@ Users should be able to:
 ![Desktop design preview](/design/desktop-design.jpg)
 **Desktop Design Preview**
 
-![Mobile design preview](/design/mobile-design.jpg)
-**Mobile Design Preview**
-
 ![Active States preview](/design/active-states.jpg)
 **Active States Preview**
+
+![Mobile design preview](/design/mobile-design.jpg)
+**Mobile Design Preview**
