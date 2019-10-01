@@ -18,6 +18,8 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
+## Design Previews
+
 **Desktop Design Preview**
 ![Desktop design preview](/design/desktop-design.jpg)
 
