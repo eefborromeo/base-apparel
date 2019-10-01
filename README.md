@@ -1,6 +1,6 @@
 # Frontend Mentor - Base Apparel Coming Soon Page
 
-![Design preview for the Base Apparel coming soon page coding challenge](https://github.com/eefborromeo/base-apparel/design/desktop-preview.jpg)
+![Design preview for the Base Apparel coming soon page coding challenge](/design/desktop-preview.jpg)
 
 ## Welcome! 👋
 
@@ -18,11 +18,11 @@ Users should be able to:
   - The `input` field is empty
   - The email address is not formatted correctly
 
-![Desktop design preview](https://github.com/eefborromeo/base-apparel/design/desktop-design.jpg)
+![Desktop design preview](/design/desktop-design.jpg)
 **Desktop Design Preview**
 
-![Mobile design preview](https://github.com/eefborromeo/base-apparel/design/mobile-design.jpg)
+![Mobile design preview](/design/mobile-design.jpg)
 **Mobile Design Preview**
 
-![Active States preview](https://github.com/eefborromeo/base-apparel/design/desktop-design.jpg)
+![Active States preview](/design/active-states.jpg)
 **Active States Preview**
