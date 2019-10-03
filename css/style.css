@@ -81,7 +81,7 @@
     width: 85vw;
     background-color: hsl(0, 0%, 0%, 0);
     border: 1px solid hsla(0, 5%, 24%, 0.3);
-    padding: 1em;
+    padding: .5em 1em;
     border-radius: 25px;
 }
 
@@ -99,5 +99,5 @@
 }
 
 .email-form button[type="submit"] img {
-    padding: 1em 1.2em;
+    padding: .8em 1.2em .8em 1.5em;
 }
