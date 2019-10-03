@@ -1,3 +1,4 @@
+ /* STYLES FOR 320px - 1024px - Mobile and Tablet (Portrait) */
  /* GENERAL */
 
 * {
@@ -40,7 +41,7 @@
     height: 30vh;
     background-image: url("../images/hero-mobile.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
 }
 
 /* COPY */
@@ -100,4 +101,66 @@
 
 .email-form button[type="submit"] img {
     padding: .8em 1.2em .8em 1.5em;
+}
+
+/* MEDIA QUERIES */
+/* min-width: 1024px - Tablets (Landscape) */
+
+@media screen and (min-width: 1024px) {
+    body {
+    background-image: linear-gradient(135deg, hsla(0, 0%, 100%, 0.5), hsla(0, 100%, 98%, 0.5)), url(../images/bg-pattern-desktop.svg);
+    background-size: 55% 100%;
+    background-repeat: repeat-y;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    grid-template-rows: 20% 80%;
+    grid-template-areas:
+        "logo hero"
+        "copy hero";
+    }
+
+    header {
+        width: 85%;
+        justify-self: end;
+        align-self: center;
+    }
+
+    #logo img {
+        padding: 0em;
+    }
+
+    .hero-img {
+        background-image: url("../images/hero-desktop.jpg");
+        grid-area: hero;
+        height: 100vh;
+    }
+
+    .copy {
+        text-align: left;
+        width: 85%;
+        justify-self: center;
+    }
+
+    .copy h1 {
+        font-size: 4.5em;
+        margin: .5em auto;
+    }
+
+    .copy p {
+        font-size: 15px;
+    }
+
+    .email-form {
+        width: 80%;
+        margin: auto;
+    }
+
+    #email {
+        padding: 1em 1.5em;
+    }
+
+    .email-form button[type="submit"] img {
+        padding: .8em 1.5em .8em 1.8em;
+    }
 }
