@@ -164,3 +164,41 @@
         padding: .8em 1.5em .8em 1.8em;
     }
 }
+
+/* min-width: 1200px and above - Desktop */
+
+@media screen and (min-width: 1200px) {
+    .copy {
+        width: 60%;
+    }
+
+    .copy h1 {
+        font-size: 4.8em;
+        margin: .8em 0 .2em;
+    }
+
+    .copy p {
+        font-size: 16px;
+        width: 95%;
+        margin: 0 0 2em;
+        line-height: 2em;
+    }
+
+    .email-form {
+        width: 95%;
+        margin: 0;
+    }
+
+    #email {
+        padding: 1.3em 2em 1.2em;
+        border-radius: 40px;
+    }
+
+    .email-form button[type="submit"] {
+        border-radius: 40px;
+    }
+
+    .email-form button[type="submit"] img {
+        padding: .8em 2.3em .8em 2.6em;
+    }
+}
