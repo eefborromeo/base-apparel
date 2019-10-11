@@ -95,7 +95,7 @@
     border: 2px solid hsl(0, 93%, 68%);
     background-image: url(../images/icon-error.svg);
     background-repeat: no-repeat;
-    background-position: 75% 50%;
+    background-position: 73% 50%;
 }
 
 #email:focus,
@@ -133,6 +133,18 @@ p.error-message {
 }
 
 /* MEDIA QUERIES */
+/* min-width 768px - Tablets (Portrait) */
+@media screen and (min-width: 768px) {
+    #email,
+    #email.valid:required {
+        width: 80vw;
+    }
+
+    #email.invalid:required {
+        background-position: 85% 50%;
+    }
+}
+
 /* min-width: 1024px - Tablets (Landscape) */
 
 @media screen and (min-width: 1024px) {
@@ -227,7 +239,8 @@ p.error-message {
         margin: 0;
     }
 
-    #email {
+    #email,
+    #email.valid:required {
         padding: 1.3em 2em 1.2em;
         border-radius: 40px;
     }
@@ -238,5 +251,11 @@ p.error-message {
 
     .email-form button[type="submit"] img {
         padding: .8em 2.3em .8em 2.6em;
+    }
+
+    p.error-message {
+        width: 95%;
+        margin-left: auto;
+        margin-top: .5em;
     }
 }
