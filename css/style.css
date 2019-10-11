@@ -75,10 +75,11 @@
 .email-form {
     display: flex;
     justify-content: center;
-    margin-bottom: 1em;
+    margin-bottom: .5em;
 }
 
-#email {
+#email,
+#email.valid:required {
     width: 85vw;
     background-color: hsl(0, 0%, 0%, 0);
     border: 1px solid hsla(0, 5%, 24%, 0.3);
@@ -90,17 +91,45 @@
     color: hsla(0, 5%, 24%, 0.3);
 }
 
+#email.invalid:required {
+    border: 2px solid hsl(0, 93%, 68%);
+    background-image: url(../images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position: 75% 50%;
+}
+
+#email:focus,
+.email-form button[type="submit"] {
+    outline: none;
+}
+
 .email-form button[type="submit"] {
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border: none;
     border-radius: 25px;
+    -webkit-box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.08);
+    -moz-box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.08);
+    box-shadow: 0px 15px 15px 0px rgba(0,0,0,0.08);
     display: flex;
     align-items: center;
     margin-left: -65px;
 }
 
+.email-form button[type="submit"]:hover {
+    background:  hsl(0, 80%, 86%);
+    -webkit-box-shadow: 0px 9px 20px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 9px 20px 0px rgba(0,0,0,0.25);
+    box-shadow:0px 9px 20px 0px rgba(0,0,0,0.25);
+}
+
 .email-form button[type="submit"] img {
     padding: .8em 1.2em .8em 1.5em;
+}
+
+p.error-message {
+    width: 75%;
+    text-align: left;
+    color: hsl(0, 93%, 68%);
 }
 
 /* MEDIA QUERIES */
@@ -150,18 +179,27 @@
     .copy p {
         font-size: 15px;
     }
+    
 
     .email-form {
         width: 80%;
-        margin: auto;
+        margin: auto auto .5em;
     }
 
     #email {
         padding: 1em 1.5em;
     }
 
+    #email.invalid:required {
+        background-position: 80% 50%;
+    }
+
     .email-form button[type="submit"] img {
         padding: .8em 1.5em .8em 1.8em;
+    }
+
+    p.error-message {
+        width: 70%;
     }
 }
 
@@ -169,7 +207,7 @@
 
 @media screen and (min-width: 1200px) {
     .copy {
-        width: 60%;
+        width: 65%;
     }
 
     .copy h1 {
