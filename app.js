@@ -15,3 +15,9 @@ let emailCheck = () => {
         form.parentNode.appendChild(errorMessage);
     }
 }
+
+email.addEventListener("input", (e) => { 
+    e.preventDefault(); 
+    emailCheck();
+    
+})
