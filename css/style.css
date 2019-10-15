@@ -24,6 +24,10 @@
     color: hsl(0, 36%, 70%);
   }
 
+  label {
+      display: none;
+  }
+
 .container {
     padding: 1.5em;
 }
