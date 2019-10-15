@@ -170,7 +170,7 @@ p.error-message {
     body {
     background-color: #ffffff;
     background-image: linear-gradient(135deg, hsla(0, 0%, 100%, 0.5), hsla(0, 100%, 98%, 0.5)), url(../images/bg-pattern-desktop.svg);
-    background-size: contain;
+    background-size: auto;
     background-repeat: no-repeat;
     padding: 0;
     display: grid;
