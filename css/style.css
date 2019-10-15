@@ -1,4 +1,4 @@
- /* STYLES FOR 320px - 1024px - Mobile and Tablet (Portrait) */
+ /* STYLES FOR 320px - 767px - Mobile */
  /* GENERAL */
 
 * {
@@ -194,7 +194,7 @@ p.error-message {
     .hero-img {
         background-image: url("../images/hero-desktop.jpg");
         grid-area: hero;
-        height: 100vh;
+        height: 100%;
     }
 
     .copy {
