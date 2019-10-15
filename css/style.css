@@ -168,13 +168,14 @@ p.error-message {
 
 @media screen and (min-width: 1024px) {
     body {
+    background-color: #ffffff;
     background-image: linear-gradient(135deg, hsla(0, 0%, 100%, 0.5), hsla(0, 100%, 98%, 0.5)), url(../images/bg-pattern-desktop.svg);
-    background-size: 55% 100%;
-    background-repeat: repeat-y;
+    background-size: contain;
+    background-repeat: no-repeat;
     padding: 0;
     display: grid;
     grid-template-columns: 55% 45%;
-    grid-template-rows: 20% 70% 10%;
+    grid-template-rows: 15% 70% 15%;
     grid-template-areas:
         "logo hero"
         "copy hero"
@@ -236,6 +237,7 @@ p.error-message {
 
     footer {
         grid-area: footer;
+        padding: 4em 1em 0.5em;
     }
 
     p.attribution {
