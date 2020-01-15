@@ -106,8 +106,8 @@ p.attribution a:hover {
   margin-bottom: 0.5em;
 }
 
-#email,
-#email.valid:required {
+.email,
+.email.valid:required {
   width: 85vw;
   background-color: hsl(0, 0%, 0%, 0);
   border: 1px solid hsla(0, 5%, 24%, 0.3);
@@ -115,18 +115,18 @@ p.attribution a:hover {
   border-radius: 25px;
 }
 
-#email::placeholder {
+.email::placeholder {
   color: hsla(0, 5%, 24%, 0.3);
 }
 
-#email.invalid:required {
+.email.invalid:required {
   border: 2px solid hsl(0, 93%, 68%);
   background-image: url(../images/icon-error.svg);
   background-repeat: no-repeat;
   background-position: 73% 50%;
 }
 
-#email:focus,
+.email:focus,
 .email-form button[type="submit"] {
   outline: none;
 }
@@ -163,12 +163,12 @@ p.error-message {
 /* MEDIA QUERIES */
 /* min-width 768px - Tablets (Portrait) */
 @media screen and (min-width: 768px) {
-  #email,
-  #email.valid:required {
+  .email,
+  .email.valid:required {
     width: 80vw;
   }
 
-  #email.invalid:required {
+  .email.invalid:required {
     background-position: 85% 50%;
   }
 }
@@ -232,11 +232,11 @@ p.error-message {
     margin: auto auto 0.5em;
   }
 
-  #email {
+  .email {
     padding: 1em 1.5em;
   }
 
-  #email.invalid:required {
+  .email.invalid:required {
     background-position: 80% 50%;
   }
 
@@ -283,8 +283,8 @@ p.error-message {
     margin: 0;
   }
 
-  #email,
-  #email.valid:required {
+  .email,
+  .email.valid:required {
     padding: 1.3em 2em 1.2em;
     border-radius: 40px;
   }
